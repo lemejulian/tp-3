@@ -1,0 +1,28 @@
+* {
+    background-color: darkgrey;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    height: 100vh;
+    background-color: red;
+    margin: 50px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.caja {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+#caja5 {
+    flex-grow: 2;
+}
